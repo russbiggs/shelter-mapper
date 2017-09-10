@@ -1,0 +1,34 @@
+{
+    "name": "shelter-mapper",
+    "version": "1.0.0",
+    "description": "",
+    "main": "build/index.js",
+    "scripts": {
+        "dev": "watch 'npm run build src'",
+        "build": "babel src -d build"
+    },
+    "babel": {
+        "presets": [
+            "latest"
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/russbiggs/shelter-mapper.git"
+    },
+    "author": "Russ Biggs",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/russbiggs/shelter-mapper/issues"
+    },
+    "homepage": "https://github.com/russbiggs/shelter-mapper#readme",
+    "devDependencies": {
+        "@turf/helpers": "^4.6.0",
+        "babel-cli": "^6.26.0",
+        "babel-preset-latest": "^6.24.1",
+        "watch": "^1.0.2"
+    },
+    "dependencies": {
+        "@turf/destination": "^4.6.0"
+    }
+}
